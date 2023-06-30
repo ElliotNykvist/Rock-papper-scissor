@@ -1,12 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h1>Rock-Paper-Scissors</h1>
+  <div class="scoreboard">
+    <div class="player">
+      <p class="player-text">PLAYER</p>
+      <p id="player-score">0</p>
+    </div>
+    <div class="computer">
+      <p class="computer-text">COMPUTER</p>
+      <p id="computer-score">0</p>
+    </div>
+  </div>
+
+  <div class="choices">
+    <button class="weapon" id="ROCK">ROCK</button>
+    <button class="weapon" id="PAPER">PAPER</button>
+    <button class="weapon" id="SCISSOR">SCISSOR</button>
+  </div>
+
+  <button id="reset">RESTART</button>
+
+  <p id="winner">Choose your weapon!</p>
+
   <script src="script.js"></script>
 </body>
 </html>
